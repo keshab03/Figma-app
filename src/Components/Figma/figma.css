@@ -1,0 +1,21 @@
+#figmawind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#figmawind h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #007bff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#figmawind marquee {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 80%;
+}

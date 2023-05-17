@@ -1,0 +1,85 @@
+#heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin-top: 3.35%;
+    background-color: rgb(253, 253, 253);
+}
+
+#head {
+    padding: 32px;
+    
+}
+
+#head span {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#dp {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#dp img {
+    height: 35px;
+    width: 35px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+#dp>#span1 {
+    color: rgb(80, 80, 80);
+}
+
+#dp span {
+    font-size: 15px;
+    padding: 5px;
+    color: rgb(154, 154, 154);
+    padding: 5px;
+}
+
+#btn {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    column-gap: 15px;
+}
+
+#btn>div {
+    box-sizing: border-box;
+    border: 2px solid rgb(229, 229, 229);
+    border-radius: 5px;
+    width: 60px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn>div:hover {
+    cursor: default;
+}
+
+#btn>div>span {
+    color: rgb(229, 229, 229);
+}
+
+#figma button {
+    background-color: #6cbef8;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+}
+
+#figma button:hover {
+    border: 2px solid blue;
+}

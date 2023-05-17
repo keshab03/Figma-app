@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#nav{
+    margin-top: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    background-color: rgb(255,255,255);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+#div1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#div1 svg{
+    height: 30px;
+
+}
+#div1 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    color: black;   
+    box-sizing: border-box;
+    border-left: 0.5px solid black;
+    padding: 10px;
+}
+
+#div2{
+    width: max-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30%;
+}
+#div2 input{
+    height: 35px;
+    width: 400px;
+    background-color: rgb(245,245,245);
+    border: none;
+}
+#div2>i{
+    height:35px;
+    width: 30px;
+    background-color: rgb(245,245,245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+#div3{
+    display: flex;
+    margin-left: 15%;
+
+}
+#div3 a{
+    text-decoration: none;
+    border: none;
+}
+#login>button{
+    border: none;
+    background-color: rgb(255,255,255);
+    padding: 6px;
+}
+#signup>button{
+    background-color: rgb(255,255,255);
+    border:1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+}
